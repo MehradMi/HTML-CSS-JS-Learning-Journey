@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loading {
+    max-width: 50%;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loading__anim {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin: 1em;
+    border: 5px solid rgba(189,189,189 ,0.25);
+    border-left-color: rebeccapurple;
+    border-bottom-color: rebeccapurple;
+    border-radius: 50%;
+    animation: rotate 600ms infinite linear;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(1turn);
+    }
+}
