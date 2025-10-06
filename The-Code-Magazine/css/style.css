@@ -183,7 +183,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -230,6 +229,7 @@ h2::before {
   right: -25px;
 }
 
+/*
 .author-img {
   margin-bottom: 10px;
   float: left;
@@ -269,6 +269,43 @@ aside {
 footer {
   clear: both;
 }
+*/
 
+.main-header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
 
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
 
+.author {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  gap: 1em;
+}
+
+.related-link:link {
+  font-size: 1.1em;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 0.1em;
+  display: block;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+}
