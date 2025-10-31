@@ -6,6 +6,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 1.125rem;
+    line-height: 1.6;
 }
 
 img {
@@ -66,10 +67,12 @@ a:hover {
 .widget-title,
 .widget-recent-post-title {
     font-family: 'Ubuntu', sans-serif;
+    line-height: 1.4;
 }
 
 .widget-title {
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 /* h1 subtitle */
@@ -88,6 +91,8 @@ a:hover {
 .article-read-more,
 .article-info {
     font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .article-read-more {
@@ -132,6 +137,7 @@ nav a {
     color: #707070;
     font-weight: 700;
     padding: 0.25rem;
+    letter-spacing: 1px;
 }
 
 nav ul {
